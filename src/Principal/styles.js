@@ -65,6 +65,10 @@ export const ContainerShoes = styled.div`
     margin-left: 100px;
     border-radius: 8px;
     padding-top: 40px;
+    
+    img{
+    cursor: pointer;
+    }
 
 `
 
