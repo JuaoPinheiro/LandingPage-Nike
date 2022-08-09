@@ -20,6 +20,10 @@ export const Header = styled.div`
     align-items: center;
     margin-left: 95px;
     margin-top: 20px;
+    
+    img{
+    cursor: pointer;
+    }
 `
 export const Section = styled.div`
     width: 1150px;
