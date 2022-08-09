@@ -12,6 +12,7 @@ export const P = styled.p`
     color: #000000;
     margin-left: 50px;
     gap: 30px;
+    cursor: pointer;
 `
 
 export const Header = styled.div`
