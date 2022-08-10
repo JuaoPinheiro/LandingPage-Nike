@@ -13,6 +13,10 @@ export const P = styled.p`
     margin-left: 50px;
     gap: 30px;
     cursor: pointer;
+    
+    &:hover {
+    opacity: 0.5;
+    }
 `
 
 export const Header = styled.div`
