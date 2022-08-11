@@ -324,7 +324,7 @@ export const DivImage2 = styled.div`
     position: absolute;
     width: 178px;
     height: 650px;
-    left: 1550px;
+    left: 1570px;
     top: 3780px;
     background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     transform: matrix(-1, 0, 0, 1, 0, 0);
