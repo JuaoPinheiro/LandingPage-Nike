@@ -13,6 +13,13 @@ export const P = styled.p`
     margin-left: 50px;
     gap: 30px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    
+    &:hover {
+    opacity: 0.5;
+    }
+>>>>>>> 018c42cc9c084f8adac338aa18bc365265a70e45
 `
 
 export const Header = styled.div`
@@ -20,6 +27,10 @@ export const Header = styled.div`
     align-items: center;
     margin-left: 95px;
     margin-top: 20px;
+    
+    img{
+    cursor: pointer;
+    }
 `
 export const Section = styled.div`
     width: 1150px;
@@ -55,6 +66,23 @@ export const Section = styled.div`
 
 `
 
+<<<<<<< HEAD
+=======
+export const ContainerShoes = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+    border-radius: 8px;
+    padding-top: 40px;
+    
+    img{
+    cursor: pointer;
+    }
+
+`
+
+>>>>>>> 018c42cc9c084f8adac338aa18bc365265a70e45
 export const H1 = styled.h1`
     font-style: normal;
     text-align: center;
