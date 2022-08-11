@@ -284,6 +284,7 @@ export const ContainerLiver = styled.div`
 
     img{
        width: 100%;
+       height: 650px;
        background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     }
 
@@ -329,3 +330,5 @@ export const DivImage2 = styled.div`
     transform: matrix(-1, 0, 0, 1, 0, 0);
 
 `
+
+export const ImageLiver = styled.div``

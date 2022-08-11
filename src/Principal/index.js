@@ -34,7 +34,8 @@ import {
   Container2,
   ContainerLiver,
   DivImage,
-  DivImage2
+  DivImage2,
+  ImageLiver
 } from './styles'
 
 function Principal () {
@@ -88,7 +89,9 @@ function Principal () {
             <ContainerLiver>
                 <h1>Featured</h1>
                 <p className='PH1'>There are newest style of the season.</p>
+                <ImageLiver>
                 <DivImage/> <img src={Liver}/> <DivImage2/>
+                </ImageLiver>
                 <p className='footerImg'>(Photo by Joe Felix/Liverpool.co)</p>
                 <p className='Season'>Liverpool’s Home & Away Kit 2022/2023 Season. </p>
 
