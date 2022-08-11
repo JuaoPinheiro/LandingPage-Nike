@@ -12,6 +12,7 @@ export const P = styled.p`
     color: #000000;
     margin-left: 50px;
     gap: 30px;
+    cursor: pointer;
 `
 
 export const Header = styled.div`
@@ -45,21 +46,12 @@ export const Section = styled.div`
     }
 
     .ImgShoe{
-        width: 650px;
+        width: 700px;
         height: 350px;
-        margin-left: 120px;
-        margin-top: 80px;
+        margin-left: 50px;
+        margin-top: 150px;
+        margin-right: 20px;
     }
-
-`
-
-export const ContainerShoes = styled.div`
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 100px;
-    border-radius: 8px;
-    padding-top: 40px;
 
 `
 
@@ -237,10 +229,81 @@ export const Container1 = styled.div`
 `
 
 export const Container2 = styled.div`
+    position: absolute;
     color: #ffffff;
-    display: inline-block;
+    left: 1163px;
+    top: 5420px;
     text-align: end;
-    margin-left: 730px;
+    margin-left: 190px;
+`
+export const ContainerLiver = styled.div`
+    h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        text-align: center;
+        margin-top: 150px;
+        line-height: 84px;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
 
-    
+    .PH1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        letter-spacing: 0.02em;
+        color: #959799;
+    }
+
+    img{
+       width: 100%;
+       background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .footerImg{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #77787B;
+    }
+
+    .Season{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        line-height: 27px;
+        margin-top: 20px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+  
+`
+export const DivImage = styled.div`
+    position: absolute;
+    width: 178px;
+    height: 650px;
+    left: 0px;
+    top: 3780px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+`
+
+export const DivImage2 = styled.div`
+    position: absolute;
+    width: 178px;
+    height: 650px;
+    left: 1550px;
+    top: 3780px;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
 `

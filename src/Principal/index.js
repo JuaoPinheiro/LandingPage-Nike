@@ -2,10 +2,6 @@ import React from 'react'
 
 import Logo from '../assets/logo.png'
 import Lupa from '../assets/lupinha.png'
-import Ten1 from '../assets/ten2.png'
-import Ten2 from '../assets/ten1.png'
-import Ten3 from '../assets/ten3.png'
-import Ten4 from '../assets/ten4.png'
 import Shoe from '../assets/shoes1.png'
 import Background from '../assets/Mask.png'
 import Title from '../assets/title.png'
@@ -18,13 +14,13 @@ import Nike1 from '../assets/nike1.png'
 import Nike2 from '../assets/nike2.png'
 import Nike3 from '../assets/nike3.png'
 import Yellow from '../assets/yellowfinish.png'
+import Liver from '../assets/liver.png'
 
 import {
   Container,
   Header,
   P,
   Section,
-  ContainerShoes,
   H1,
   Div,
   Just,
@@ -35,7 +31,10 @@ import {
   YellowText,
   Footer,
   Container1,
-  Container2
+  Container2,
+  ContainerLiver,
+  DivImage,
+  DivImage2
 } from './styles'
 
 function Principal () {
@@ -54,12 +53,6 @@ function Principal () {
 
             <Section>
                 <img className='BGimg' src={Background} />
-                <ContainerShoes>
-                    <img src={Ten1} />
-                    <img src={Ten2} />
-                    <img src={Ten3} />
-                    <img src={Ten4} />
-                </ContainerShoes>
                 <img className='ImgShoe' src={Shoe} />
                 <img className='Air' src={Title} />
             </Section>
@@ -79,7 +72,7 @@ function Principal () {
                 <p className='Members'>Members-only early release</p>
                 <h1 className='H1zin'>OUR CLAW MOVES FORWARD</h1>
                 <p className='P2'>They are part of who we are as Brazilians. Now Nike Members can show their pride and grit with exclusive <br /> early access to the 2022 collection of the Brazilian National Team.</p>
-                <video src={Brazil} width="100%" height="100%" controls="controls" autoPlay="autoplay" muted loop />
+                <video src={Brazil} width="100%" height="100%" controls="controls" autoPlay="autoplay" muted loop/>
             </ContainerBR>
 
             <ContainerNikes>
@@ -91,6 +84,15 @@ function Principal () {
                 <img src={Nike2} />
                 <img src={Nike3} />
             </ContainerNikes>
+
+            <ContainerLiver>
+                <h1>Featured</h1>
+                <p className='PH1'>There are newest style of the season.</p>
+                <DivImage/> <img src={Liver}/> <DivImage2/>
+                <p className='footerImg'>(Photo by Joe Felix/Liverpool.co)</p>
+                <p className='Season'>Liverpool’s Home & Away Kit 2022/2023 Season. </p>
+
+            </ContainerLiver>
 
             <ContainerYellow>
                 <YellowText>
@@ -133,8 +135,8 @@ function Principal () {
                 </Container1>
 
                 <Container2>
-                    <h4>© 2022 Nike, Inc. All Rights Reserved</h4>
-                    <p>Primary Address</p>
+                    <p style={{ marginBottom: 40 }}>© 2022 Nike, Inc. All Rights Reserved</p>
+                    <p style={{ fontWeight: 'bold' }}>Primary Address</p>
                     <p>One Bowerman Drive <br/>
                         Beaverton, OR 97005-6453 <br/>
                         USA</p>
